@@ -1,4 +1,5 @@
 def add(a,b):
     if b > 42: raise ValueError
-    return b + a
+    if b < 23: raise ValueError
+    return a + b
 
